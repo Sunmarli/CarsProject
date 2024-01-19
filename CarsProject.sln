@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsProject.Core", "CarsPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsProject.AplicationServices", "CarsProject.AplicationServices\CarsProject.AplicationServices.csproj", "{14334AF3-F52F-4EA1-9697-46B38A1252E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsProject.Data", "CarsProject.Data\CarsProject.Data.csproj", "{49471C70-4D28-492B-89E7-D13DECF7FD26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{14334AF3-F52F-4EA1-9697-46B38A1252E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14334AF3-F52F-4EA1-9697-46B38A1252E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14334AF3-F52F-4EA1-9697-46B38A1252E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49471C70-4D28-492B-89E7-D13DECF7FD26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49471C70-4D28-492B-89E7-D13DECF7FD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49471C70-4D28-492B-89E7-D13DECF7FD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49471C70-4D28-492B-89E7-D13DECF7FD26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

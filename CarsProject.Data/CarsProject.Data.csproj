@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CarsProject.Core\CarsProject.Core.csproj" />
-    <ProjectReference Include="..\CarsProject.Data\CarsProject.Data.csproj" />
   </ItemGroup>
 
 </Project>
