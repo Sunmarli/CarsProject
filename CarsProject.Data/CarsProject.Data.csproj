@@ -15,4 +15,8 @@
     <ProjectReference Include="..\CarsProject.Core\CarsProject.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migration\" />
+  </ItemGroup>
+
 </Project>
