@@ -74,7 +74,7 @@ namespace CarsProject.Controllers
             [HttpGet]
             public async Task<IActionResult> Update(Guid id)
             {
-                var car = await _carsServices.DetailsAsync(id);
+                var car = await _carsServices.GetAsync(id);
 
                 if (car == null)
                 {
@@ -129,7 +129,7 @@ namespace CarsProject.Controllers
             [HttpGet]
             public async Task<IActionResult> Details(Guid id)
             {
-                var car = await _carsServices.DetailsAsync(id);
+                var car = await _carsServices.GetAsync(id);
 
                 if (car == null)
                 {
@@ -156,7 +156,7 @@ namespace CarsProject.Controllers
             [HttpGet]
             public async Task<IActionResult> Delete(Guid id)
             {
-                var car = await _carsServices.DetailsAsync(id);
+                var car = await _carsServices.GetAsync(id);
 
                 if (car == null)
                 {
