@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsProject.AplicationServi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsProject.Data", "CarsProject.Data\CarsProject.Data.csproj", "{49471C70-4D28-492B-89E7-D13DECF7FD26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsTest", "CarsTest\CarsTest.csproj", "{58DC4DC4-CDC7-46A7-969A-689071A02F25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsTest", "CarsTest\CarsTest.csproj", "{58DC4DC4-CDC7-46A7-969A-689071A02F25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
